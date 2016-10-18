@@ -1,0 +1,10 @@
+[Unit]
+Description=The zircbot
+
+[Service]
+Type=simple
+ExecStart=/usr/bin/zircbot
+SuccessExitStatus=0
+
+[Install]
+WantedBy=default.target
